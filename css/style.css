@@ -1,0 +1,38 @@
+/*
+Theme Name: Overlay IRIT
+Theme URI: https://www.irit.fr
+Template: overlay
+Author: William VINCENT
+Author URI: https://www.irit.fr
+Description: Overlay is built to be light and fast, focusing on speed and performance... While also giving you the ability to built and site you want from a simple blog website to a full eCommerce online store. We couldn't find what we needed, so we built it... Overlay gives you the ability to Customize all elements from layout, to spacing and offers full color settings all neatly built into the Customizer. Overlay offers deeper integration with WooCommerce, Elementor and other top plugins. Some Top features in Overlay are: Select blog, footer & WooCommerce layouts and further customize them, Full color settings for all elements, Advanced WooCommerce settings, Overlay is Fully Responsive, Add Social Icons + lots more! See more at https://overlaywp.com/
+Version: 1.1.33
+*/
+
+
+.site-logo-align {
+  display: block;
+}
+
+.overlay-bottombar-default {
+  display: none;
+}
+
+.footer-custom-one .gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.footer-custom-one .gallery .gallery-item {
+  padding: 5px;
+  margin: auto;
+}
+
+#secondary .wp-block-image img {
+  border-radius: 200px;
+}
+
+
+#masthead #site-navigation.main-navigation.overlay-nav-underline ul.sub-menu a:hover { color: white !important}
+#masthead #site-navigation.main-navigation.overlay-nav-underline ul.sub-menu .current_page_item a { color: white !important}

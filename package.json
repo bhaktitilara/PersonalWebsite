@@ -1,0 +1,23 @@
+{
+  "name": "researchwebsite",
+  "version": "1.0.0",
+  "description": "Reseracher's Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bhakti PAIRKH",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhaktitilara/ResearchWebsite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bhaktitilara/ResearchWebsite/issues"
+  },
+  "homepage": "https://github.com/bhaktitilara/ResearchWebsite#readme"
+}
